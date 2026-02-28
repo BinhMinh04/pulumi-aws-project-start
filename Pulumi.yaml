@@ -1,0 +1,11 @@
+name: aws-project-start
+description: Test
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
